@@ -14,6 +14,8 @@ The most interesting parts of the program are the functions AddLaplaceNoise, Whi
    
 ## Usage
 
+The datasets I used were created using the createdataset.py script, which creates n amount of values between 1 and 1024, n is given as a command line parameter
+
 The application requires two command line parameters, the first one being a command either tree,enc or dec. Each of them produces tables similar to the ones detailed in the paper. The second parameter is an integer of how many iterations do you want the program to compute the averages over.  
 
 an example execution would be:  
